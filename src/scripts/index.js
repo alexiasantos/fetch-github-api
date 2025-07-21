@@ -18,7 +18,6 @@ document.getElementById('input-search').addEventListener('keypress', async funct
        if(validateEmptyInput(nome_user)) return
 ;
         getUserData(nome_user);
-       
     }
 });
 
